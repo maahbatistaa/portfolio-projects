@@ -51,19 +51,19 @@ a {
 
 h2 {
   font-size: 1.25rem;
-  margin-top: 4rem ;
+  margin-top: 6rem ;
   text-transform: uppercase;
   color: #ffa754;
 }
 
 h1{
   font-size: 3.5rem;
-  margin-top: 0.75rem;
+  margin-top: 0.5rem;
   text-transform: uppercase;
 }
 
 p{
   font-size: 1.125rem;
-  margin-top: 1.5rem;
+  margin-top: 1.25rem;
   max-width: 600px;
 }
