@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: #fafafa;
+  text-transform: uppercase;
+}
+
 body {
   font-family: 'IBM Plex Mono', monospace;
   background: url('../img/fundo.jpg');
@@ -19,51 +25,52 @@ body {
   padding: 0.875rem 0.625rem;
 }
 
-header {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.logo {
-  font-size: 1.75rem;
+.header h1 a {
   font-weight: 700;
 }
 
-ul {
+.header nav ul {
   display: flex;
   list-style: none;
-  gap: 1.25rem;
-  font-size: 1.25rem;
+  gap: 1rem;
 }
 
-li:hover {
+.header nav ul li a {
+  font-size: 1.25rem;
+  font-weight: 500;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.header nav ul li a:hover {
   background: #ffa754;
-  border-radius: 0.25rem;
+  transition: 0.3s ease;
 }
 
-a {
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #fafafa;
-  font-weight: 700;
-}
-
-h2 {
+/* HERO */
+.hero h3 {
   font-size: 1.25rem;
-  margin-top: 6rem ;
+  margin-top: 6rem;
   text-transform: uppercase;
   color: #ffa754;
 }
-
-h1{
+.hero h2 {
   font-size: 3.5rem;
   margin-top: 0.5rem;
   text-transform: uppercase;
 }
 
-p{
+.hero p {
   font-size: 1.125rem;
   margin-top: 1.25rem;
   max-width: 600px;
+}
+
+@media (max-width: 425px) {
 }
