@@ -7,7 +7,6 @@
 a {
   text-decoration: none;
   color: #fafafa;
-  text-transform: uppercase;
 }
 
 body {
@@ -60,6 +59,7 @@ body {
   text-transform: uppercase;
   color: #ffa754;
 }
+
 .hero h2 {
   font-size: 3.5rem;
   margin-top: 0.5rem;
@@ -73,4 +73,18 @@ body {
 }
 
 @media (max-width: 425px) {
+  .header nav ul {
+    gap: 0;
+  }
+  .hero h3 {
+    font-size: 1rem;
+    margin-top: 5rem;
+  }
+  .hero h2 {
+    font-size: 2.75rem;
+  }
+  .hero p {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
 }
